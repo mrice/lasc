@@ -1,19 +1,38 @@
 body {
 	margin: 40px auto;
 	max-width: 650px;
-	line-height: 1.6;
+	line-height: 1.4em;
 	font-size: 18px;
 	color: #444;
-	padding: 0 10px
+	background-color: #F7F7F7;
 }
 
 h1,h2,h3 {
-	line-height: 1.2
+	padding-top: .6em;
+	line-height: 1.2em;
+	font-family: helvetica;
+	margin: .5em auto;
+}
+
+header h1 {
+	padding: 0;
+}
+
+header a {
+	color: #444;
+}
+
+header {
+	border-bottom: 1px solid #444;
+}
+
+footer {
+	border-top: 1px solid #444;
 }
 
 a {
 	text-decoration: none;
-	color: #00007D;
+	color: #656592;
 }
 
 a:hover {

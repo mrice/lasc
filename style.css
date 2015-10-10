@@ -1,0 +1,40 @@
+body {
+	margin: 40px auto;
+	max-width: 650px;
+	line-height: 1.4em;
+	font-size: 18px;
+	color: #444;
+	background-color: #F7F7F7;
+}
+
+h1,h2,h3 {
+	padding-top: .6em;
+	line-height: 1.2em;
+	font-family: helvetica;
+	margin: .5em auto;
+}
+
+header h1 {
+	padding: 0;
+}
+
+header a {
+	color: #444;
+}
+
+header {
+	border-bottom: 1px solid #444;
+}
+
+footer {
+	border-top: 1px solid #444;
+}
+
+a {
+	text-decoration: none;
+	color: #656592;
+}
+
+a:hover {
+	text-decoration: underline;
+}

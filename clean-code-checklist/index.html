@@ -17,6 +17,43 @@
 		<h2>Topic header</h2>
 		<p><i class="fa fa-check-square-o"></i> //TODO</p>
 
+		<h2>Naming things</h2>
+		<p>
+			<i class="fa fa-check-square"></i> <strong>Name reveals intent</strong> - does the name of the variable, function, or class tell you why it exists, what it does, and how it's used? <br/>
+			<i class="fa fa-check-square"></i> <strong>Avoid mental mapping</strong> - generally write a name that matches what it's supposed to do, and avoid single digit variable names.
+			<br/>
+			<i class="fa fa-check-square"></i> <strong>Avoid verbs in class names</strong> - because...<br/>
+			<i class="fa fa-check-square"></i> <strong>Method naming</strong> - methods should have verb or verb phrase names
+		</p>
+
+		<h2>Functions</h2>
+		<p>
+			<i class="fa fa-check-square"></i> <strong>What does the function do?</strong> - a function should either (1) do something or (2) answer a question -- not do <em>both</em> (1) and (2) <br/>
+
+			<i class="fa fa-check-square"></i> <strong>Function size</strong> - rule of thumb might be that more than twenty lines is too long. <br/>
+			
+			<i class="fa fa-check-square"></i> <strong>Do one thing</strong> ... what else to say? <br/>
+
+			<i class="fa fa-check-square"></i> <strong>Indent levels</strong> - more than two indent levels, and it might be too big. <br/>
+
+			<i class="fa fa-check-square"></i> <strong>Stick to one level of abstraction</strong> - try not to mix high and low level things in the same function. <br/>
+			
+			<i class="fa fa-check-square"></i> <strong>Follow the <em>step down</em> rule</strong> - organize the class or file to start with the highest level of abstraction and then descend into lower levels of abstraction. <br/>
+
+			<i class="fa fa-check-square"></i> <strong>Fewest possible number of function arguments</strong> - zero arguments is best, one argument is good, two arguments and you're getting too complex, three or more arguments... ugh. Why? Lots of reasons, but increased complexity to comprehend the function and complexity in unit testing might be of the strongest. <br/>
+
+			<i class="fa fa-check-square"></i> <strong>Avoid side effects</strong> - if your function is doing more than the name suggests (e.g., updating instance variables that nobody expected), then you might consider refactoring.<br/>
+			
+			<i class="fa fa-check-square"></i> <strong>Avoid output arguments</strong> - e.g., return values should generally be the result of an operation, not a transformation -- better would be to have a method that changes the state of its own object.
+
+		</p>
+		
+		<h2>Comments</h2>
+		<p>//TODO</p>
+		
+		<h2>Formatting</h2>
+		<p>//TODO</p>
+		
 		<h2>Credits</h2>
 		<p>Original structure and concepts from Uncle Bob Martin's <a href="http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship-ebook/dp/B001GSTOAM/"><em>Clean Code</em></a></p>
 		<p>Additional insight from the <i class="fa fa-calendar"></i> <strong><a href="http://www.meetup.com/LA-Software-Craftsmanship/">Los Angeles Software Craftsmanship community</a></strong>. </p>
